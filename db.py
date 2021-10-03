@@ -5,7 +5,7 @@ class DB:
         self.db = MySQLdb.connect(
             host="mysql",
             user="notesuser",
-            passwd="E699rmNRrHsq3Gb3",
+            passwd=PASSWD_SECRET,
             database=database,
             autocommit=True
         )
